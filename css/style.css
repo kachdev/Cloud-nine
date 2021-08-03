@@ -1,0 +1,547 @@
+
+@font-face{
+  font-family: 'Roboto-Light';
+  src: url(../vendor/fonts/roboto/Roboto-Light.ttf);
+}
+
+@font-face{
+  font-family: 'Roboto-Black';
+  src: url(../vendor/fonts/roboto/Roboto-Black.ttf);
+}
+
+@font-face{
+  font-family: 'Lato-Regular';
+  src: url(../vendor/fonts/lato/Lato-Regular.ttf);
+}
+
+@font-face{
+  src: url(../vendor/fonts/Poppins/Poppins-Regular.ttf);
+  font-family: 'pop-regular';
+}
+
+
+body{
+  padding: 0%;
+  margin: 0%;
+  font-family: 'pop-regular';
+}
+
+.navbar-brand{
+  font-size: 35px;
+  font-family: 'Roboto-Black';
+  color: #ffffff !important;
+}
+
+.nav-link{
+  font-size: 15px;
+  margin:10px;
+  color: #ffffff !important; 
+  transition: all 300ms ease-in;
+  font-family:'pop-regular', arial, sans-serif;
+}
+.nav-link:hover{
+  color: #0f0201 !important; 
+  transition: all 300ms ease-in;
+}
+nav{
+  box-shadow: 0 -20px 52px rgba(8, 10, 11, 0.397); 
+  background:  #f83600;
+ /* #52c234 */
+  
+}
+
+.home-login-btn{
+  
+}
+.home-login-btn a{
+  background: #ffffff;
+  padding: 15px;
+  width: 360px;
+  color: #c5160a;
+  text-decoration: none;
+  border-radius: 7px;
+}
+
+.active .nav-link{
+  color: #c5160a !important; 
+  font-weight:bold;
+  border-bottom: 1px double #83140c;
+  transition: all 300ms ease-in;
+}
+
+.menu-right-btn{
+  padding: 13px 16px;
+  margin-right: 4%;
+  background: transparent;
+  transition: all 300ms ease-in;
+}
+
+.menu-right-btn:hover{
+  color: #ffffff;
+  background: #83140c;
+  transition: all 300ms ease-in;
+}
+
+.site-content{
+  background: url(../image/abstract-architectural-design-architecture-316093\ new\ 2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.site-title{
+  color:rgb(231, 227, 227);
+  font-family: 'Roboto-Black';
+  margin-top: 30%;
+  margin-bottom: 6%;
+  font-size: 50px;
+}
+.site-desc{
+  color: rgb(231, 227, 227);
+  font-size: 14px;
+}
+
+.site-btn1{
+  margin-left: 20%;
+  background: #83140c;
+  border:none;
+}
+
+.site-btn2{
+  margin-left: 20%;
+  border:none;
+}
+.overlay::before{
+  background: #000000;
+}
+
+.site-button{
+  margin-bottom: 150px;
+}
+
+.site-btn1, .site-btn2{
+  margin-top: 5%;
+  margin-bottom: 40%;
+}
+
+/* SECTION 1 */
+.section-1{
+  margin-top:6%;
+
+}
+
+.section-1 h2{
+  font-size: 20px !important;
+  line-height: 48px;
+  margin-bottom: -5px;
+  color: #f83600;
+  font-family: "Raleway", Arial, sans-serif;
+}
+.section-1 i{
+  color: #83140c;
+}
+.section-1 p{
+  color: #333333;
+  line-height: 23.8px;
+  font-size: 14px;
+}
+
+
+/* Section 2 */
+
+.section-2 .heading-1{
+  margin-top:8%;
+}
+
+.section-2 .heading-2{
+  margin-bottom: 5%;
+  font-size: 39px;
+}
+
+.section-2 .para-1{
+  width:60%;
+  margin-left: 20%;
+  margin-bottom:5%;
+}
+
+.section-2 .card-text, .para-1{
+  color:#131313;
+}
+
+.section-2 {
+  margin-bottom: 8%;
+}
+
+.card-pack{
+  width: 110%;
+  
+}
+
+.section-2 .card-main
+{
+  border: none;
+  width: 111%;
+  box-shadow: 6px 4px 24px rgba(8, 10, 11, 0.397);
+}
+.body-1{
+  background: #fe8c00;
+
+}
+.body-2{
+  padding: 0rem;
+}
+.body-2 ul,li{
+  list-style: none;
+  padding: 16px 0px;
+  margin: 0%;
+}
+.body-2 ul li:nth-child(even) {
+  background-color: #dddddd80;
+}
+.sec1-head{
+  color: #f83600;
+  font-family: "Raleway", Arial, sans-serif;
+}
+.sec1-para{
+  font-size: 13px;
+  color: #333333;
+}
+
+.section-2 .card-head{
+  padding: 7px 30px;
+  background: #f83600;
+  color: #ffffff;
+  border-radius: 0px;
+}
+.section-2 h2{
+  font-size: 20px;
+  line-height: 2.4em;
+  margin: 0;
+}
+.section-2 .card-title, p{
+  color: #ffffff;
+}
+
+
+/* Section 3 */
+
+.section-3 .heading-1{
+  margin-top:8%;
+}
+
+.section-3 .heading-2{
+  margin-bottom: 5%;
+  font-size: 39px;
+}
+
+.section-3 .para-1{
+  width:60%;
+  margin-left: 20%;
+  margin-bottom:5%;
+}
+
+.section-3 .card-text, .para-1{
+  color:#131313;
+}
+
+.section-3 {
+  margin-bottom: 8%;
+}
+
+.card{
+  width: 20rem;
+}
+
+.section-3 .sec3-title{
+  color: #f83600;
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+.section-3 .card-title{
+  color: #f83600;
+  font-size: 18px;
+}
+.section-3 .card-text{
+  color: #333333;
+  font-size: 13px;
+}
+
+.sec3-para{
+  font-size: 13px;
+  color: #333333;
+}
+
+
+/* SECTION 4 */
+.section-4{
+  background: #f83600;
+  margin-top:8%;
+}
+
+.section-4 .row .col-md-7, .col-md-5{
+  margin-top:10%;
+  margin-bottom: 10%;
+}
+
+.section-4 a{
+  color:#c7c7c7;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.section-4 .para-1{
+  color: white;
+  margin-top:7%;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.section-4 h4{
+  font-size: 17px;
+  line-height: 18.7px;
+  color: #ffffff;
+}
+
+.section-4 p{
+  font-size: 13px;
+  line-height: 23.8px;
+}
+.footer-bottom{
+  background: #fe8c00;
+  padding: 18px 20px;
+}
+
+.footer-bottom p{
+  font-size: 12px;
+  line-height: 23.8px;
+}
+
+.footer-bottom i{
+  color: #f3bd7b;
+  font-size: 20px;
+}
+/* SECTION 5 */
+
+.section-5 .social i{
+  color: #83140c;
+  font-size: 20px; 
+}
+
+
+
+
+
+/* SIGNUP PAGE */
+.Signup-form{
+ 
+  border: 1px solid #ccc;
+  border-radius: 14px;
+  padding: 20px 24px;
+  margin: 100px auto;
+  border:none;
+}
+
+.f-group{
+  /* border-bottom: 2px solid rgba(255,255,255,0.24); */
+  margin-bottom: 30px;
+}
+
+.f-control{
+  /* background: transparent;
+  padding: 0 5px 0 38px;
+  border:none;
+  outline: none; */
+  color: #ffffff !important;
+}
+.log-btn{
+  background: none;
+  border:1px solid #c5160a;
+  border-radius: 40px;
+  color: #c5160a;
+  font-size: 16px;
+  line-height: 19.2px;
+  width: 100%;
+  padding: 15px;
+}
+
+.log-btn:hover{
+  background: #c5160a;
+  border: none;
+}
+.reg-btn{
+  background: #ffffff;
+  border:none;
+  border-radius: 40px;
+  color: #443f3f;
+  font-size: 16px;
+  line-height: 19.2px;
+  width: 20%;
+  padding: 15px;
+}
+
+.bg-cover{
+  /* background: url(../image/black-and-white-computer-display-220357.jpg);
+  background-size: cover; */
+}
+
+
+
+
+
+/* DASHBOARD */
+
+.dash-nav{
+  padding: 1px;
+}
+.dash-content{
+  background: #ffffff;
+  height: 700px;
+  padding-top:50px; 
+}
+/* .dash-inner{
+  padding: 7px;
+  margin: 20px;
+  border-radius: 10px;
+} */
+
+.file-bar{
+  background: #c5c5c5;
+  padding: 1px;
+  border-radius: 10px;
+}
+
+.dash-search{
+  border-radius: 17px;
+  border: none;
+}
+.dash-btn{
+  background: white;
+  border:1px solid #ccc;
+}
+.dash-btn:hover{
+  background: #f1f1f1;
+}
+
+.dash-btn i{
+  color: #131313;
+}
+.float-btn i{
+  border-radius: 50%;
+  border:none;
+  background: #c5160a;
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0px 8px 8px rgba(5, 5, 5, 0.63);
+}
+
+.file-btn i{
+  border-radius: 7px;
+  background: #c5160a;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin:0px 4px;
+  border: none;
+  
+}
+
+.upload-body{
+  border:2px dotted #000000;
+  cursor: pointer;
+  background: #c5170a70;
+  padding: 30px;
+}
+
+.dash-img-btn{
+  background: none;
+}
+
+.dash-add-menu{
+  border: none;
+}
+.dash-add-menu:hover{
+  background: none;
+}
+.dash-add-btn{
+  background: none;
+  border: none;
+}
+.dash-add-btn:hover{
+  background: none;
+  border: none;
+}
+.dash-add-btn:focus{
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+/* .dash-add-btn.dropdown-toggle{
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.dash-add-btn  > .btn-secondary.dropdown-toggle:focus {
+
+  box-shadow: none;
+
+} */
+
+/* color: #fff;
+
+background-color: #545b62;
+
+border-color: #4e555b; */
+
+@media screen and (max-width:768px){
+  .section-1 .card{
+    width:14rem;
+  }
+
+  .section-4 .col-md-7 img{
+    width:350px;
+  }
+}
+
+@media screen and (max-width:320px){
+  .site-content .site-title {
+    font-size: 30px;
+    padding-left: 15%;
+    
+  }
+
+  .site-content .site-btn2{
+    display: none;
+  }
+  .site-content .site-desc{
+    padding-left: 15%;
+  }
+
+  .site-content .site-btn1{
+    margin-left: 15%;
+  }
+
+  .section-1 .heading-1, .section-1 .heading-2{
+    font-size: 25px;
+  }
+
+  .section-1 .col-md-4{
+    padding:5%;
+    margin-left:8%;
+  }
+
+  .section-1 .card{
+    width: 15rem;
+  }
+
+  .section-4 .col-md-5{
+    padding: 0% 15%;
+  }
+
+  footer input[type="button"]{
+    margin-top:5%;
+  }
+}

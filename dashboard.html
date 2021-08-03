@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>CloudNine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+  
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg dash-nav ">
+      <a href="index.html" class="navbar-brand  ml-3 ">CloudNine</a>
+      <button class="navbar-toggler " type="button" data-toggle = "collapse" data-target = "#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+
+      <div class="collapse navbar-collapse "></div>
+      <div class="collapse navbar-collapse " id="navbarMenu">
+        <div class="mr-auto"></div>
+        <form class="form-inline my-2 my-lg-0">
+          <!-- <i class="fa fa-search"></i> -->
+            <input class="form-control mr-sm-2 dash-search" type="search" placeholder="Search" aria-label="Search">
+            <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+          </form>
+        <div class="nav-img ml-4 mr-2">
+          <div class="btn-group dropleft">
+            <button type="button" class="btn  dropdown-toggle dash-img-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="image/pexels-photo-935969.jpeg" class="rounded-circle " alt="" width="40px" height="40px">
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item"  href="">Profile Name here</a>
+              <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal1">Change Photo</a>
+              <a class="dropdown-item" href="settings.html">Settings</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="login.html">Sign Out</a>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </nav>
+  </header>
+
+   <main>
+     <!-- HOMEPAGE -->
+     <div class="dash-content ">
+       <div class="dash-inner">
+          <div class="container">
+            <!-- TABLE-->
+            <table class="table table-hover dash-table">
+              <thead>
+                <tr>
+                  <th scope="col" colspan="1">Name</th>
+                  <th scope="col">Modified</th>
+                  <th scope="col">Option</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Lorem Ipsum is simply dummy text of the printing.zip</td>
+                  <td>27/1/2018 9:39 am</td>
+                  <td>
+                    <button type="button" class="btn dash-btn" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Share</button>
+
+                    <button class="btn btn-secondary dash-btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-ellipsis-h"></i>
+                    </button>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Download</a>
+                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal2" data-whatever="@mdo">Rename</a>
+                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal3" data-whatever="@mdo">Delete</a>
+                    </div>
+                    
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Lorem Ipsum is simply dummy text of the printing.zip</td>
+                  <td>27/1/2018 9:39 am</td>
+                  <td>
+                    <button type="button" class="btn dash-btn" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Share</button>
+
+                    <button class="btn btn-secondary dash-btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-ellipsis-h"></i>
+                    </button>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Download</a>
+                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal2" data-whatever="@mdo">Rename</a>
+                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal3" data-whatever="@mdo">Delete</a>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Lorem Ipsum is simply dummy text of the printing.zip</td>
+                  <td>27/1/2018 9:39 am</td>
+                  <td>
+                    <button type="button" class="btn dash-btn" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Share</button>
+                    <button class="btn btn-secondary dash-btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-ellipsis-h"></i>
+                    </button>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Download</a>
+                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal2" data-whatever="@mdo">Rename</a>
+                      <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal3" data-whatever="@mdo">Delete</a>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table> <!--END OF TABLE-->
+          </div> <!--END OF CONTAINER-->
+       </div> <!--END OF dash-inner-->
+
+     </div> <!--END OF dash-content-->
+     
+
+
+
+     <div class="d-flex justify-content-end mb-4 mr-5 float-btn">
+      <button class="btn btn-secondary dash-add-btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  
+        <i class="fa fa-plus"></i>
+      </button>
+      <div class="dropdown-menu dash-add-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal4" data-whatever="@mdo">
+            <i class="fa fa-file"></i>
+            Files</a>
+          <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal4" data-whatever="@mdo">
+            <i class="fa fa-folder"></i>
+            Folders</a>
+        </div>
+     </div>
+
+
+        
+
+     <!-- SHARE BUTTON MODAL -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">File Name</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Recipient:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">Message:</label>
+                  <textarea class="form-control" id="message-text" placeholder="Add a message (optional)"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+              <button type="button" class="btn btn-primary">Share </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF SHARE BUTTON MODAL -->
+
+
+
+      <!-- CHANGE PHOTO MODAL -->
+      <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center">
+              Add an account photo
+              <div class="upload-body">
+                Drag and drop or Upload from Computer
+                <form action="">
+                  <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                </form>
+                
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Upload</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF CHANGE PHOTO MODAL -->
+
+
+      <!-- MODAL RENAME FILE -->
+      <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Rename File</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="recipient-name" placeholder="Old File Name">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="recipient-name" placeholder="New File Name">
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Rename File</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- END OF MODAL CHANGE LANGUAGE -->
+
+
+      <!-- MODAL DELETE FILE -->
+      <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Are you Sure you want to Delete File?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="recipient-name" placeholder="File name" disabled>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success">Yes </button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- END OF MODAL CHANGE LANGUAGE -->
+
+
+      <!-- UPLOAD FILE/FOLDER MODAL -->
+      <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center">
+              Upload File or Folder
+              <div class="upload-body">
+                Drag and drop or Upload from Computer
+                <form action="">
+                  <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                </form>
+                
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Upload</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF UPLOAD FILE/FOLDER MODAL -->
+
+
+   </main>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="vendor/js/bootstrap.min.js"></script>
+  <script src="vendor/scrollreveal-master/scrollreveal-master/dist/scrollreveal.min.js"></script>
+  <script src="main.js"></script>
+  <!-- <script>
+    window.sr = ScrollReveal({duration : 2000});
+    sr.reveal('.site-content .d-flex');
+    sr.reveal('.section-1 .card');
+    sr.reveal('.section-2 .d-flex');
+    sr.reveal('.section-3 .col-md-4');
+    sr.reveal('.section-4 .col-md-5, .col-md-7');
+  </script> -->
+</body>
+</html>
